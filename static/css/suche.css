@@ -1,0 +1,61 @@
+h1, h2, a, #menu li.active, #submenu ul {
+	color: #4C56FF;
+}
+
+#menu li.active {
+	border-top-color: #4C56FF;
+	background: #4C56FF;
+}
+
+#foot {
+	background: #434CE6;
+	border-top: 0;
+}
+
+#foot, #foot a, #foot a:visited {
+	color: #FFF;
+}
+
+
+#sidebar {
+	margin-top: 80px;
+}
+
+
+#wall.suche {
+	margin: 0 20px;
+}
+
+#results {
+	margin-right: 250px;
+}
+
+
+#result_navigation {
+	background: #4C56FF url(../images/searchtab.png) repeat-x bottom;
+	margin-top: -1px;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	color: #FFF;
+	font-size: 18px;
+}
+
+#result_navigation a {
+	color: #FFF;
+}
+
+#result_navigation b {
+	font-size: 24px;
+}
+
+#other_pages {
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+
+.suche div.url, .suche .weight {
+	color: #BBB;
+}

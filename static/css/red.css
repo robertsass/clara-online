@@ -1,0 +1,21 @@
+h1, h2, a, #menu li.active, #submenu ul, #foot {
+	color: #ff3e4a;
+}
+
+#menu li.active {
+	border-top-color: #ff3e4a;
+}
+
+#foot, #foot a {
+	background: #ff3e4a;
+	color: #fff;
+	border-top: none;
+}
+
+input[type="submit"] {
+	background: #FF3E4B url(../images/button_red_bg.png) repeat-x;
+}
+
+input[type="submit"]:active {
+	background: #FF3E4B;
+}

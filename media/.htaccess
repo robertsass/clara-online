@@ -1,0 +1,4 @@
+authType      basic
+authName      Medien
+order         deny,allow
+allow from    127.0.0.1

@@ -1,0 +1,21 @@
+h1, h2, a, #menu li.active, #submenu ul, #foot {
+	color: #47A51C;
+}
+
+#menu li.active {
+	border-top-color: #47A51C;
+}
+
+#foot, #foot a {
+	background: #47A51C;
+	color: #fff;
+	border-top: none;
+}
+
+input[type="submit"] {
+	background: #47A61C url(../images/button_lime_bg.png) repeat-x;
+}
+
+input[type="submit"]:active {
+	background: #47A61C;
+}

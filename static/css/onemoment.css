@@ -1,0 +1,111 @@
+body {
+	margin: 0px;
+	font-family: Trebuchet MS, Verdana, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em;
+	color: #444;
+	background: #BBB url(../images/bodyshadow.png) repeat-y center;
+}
+
+#body {
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFF;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+	text-decoration: underline;
+}
+
+
+#top {
+	position: relative;
+	height: 270px;
+	background: #DDD;
+	border-bottom: 1px solid black;
+}
+
+#top #head {
+	position: relative;
+}
+
+#top #head #title {
+	position: absolute;
+	top: 0px;
+	background: url(../images/head.png);
+	height: 70px;
+	width: 900px;
+}
+
+#top #head #banner {
+	position: absolute;
+	top: 60px;
+	height: 260px;
+	width: 900px;
+}
+
+#top #banner {
+	background: url(../images/top_background.jpg) no-repeat;
+}
+
+#wall {
+	min-height: 200px;
+	margin-top: 50px;
+	position: relative;
+}
+
+#teatime {
+	position: absolute;
+	left: 130px;
+	top: 40px;
+}
+
+#onemoment {
+	position: absolute;
+	right: 130px;
+	top: 40px;
+}
+
+input[type="text"], input[type="password"], input[type="submit"], input[type="button"] {
+	border: 1px solid #999;
+	padding: 4px;
+}
+
+input[type="submit"] {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 3px 10px 3px 10px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+input[type="button"] {
+	font-size: 12px;
+	padding: 3px 10px 3px 10px;
+	color: #444;
+	cursor: pointer;
+	background: #EEE url(../images/button_white_bg.png) repeat-x;
+}
+
+input[type="button"]:active {
+	background: #EEE;
+}
+
+#foot {
+	clear: both;
+	position: relative;
+	margin-top: 150px;
+	padding: 20px;
+	height: 40px;
+	background: url(../images/placeholder_footer.png) center no-repeat;
+}
