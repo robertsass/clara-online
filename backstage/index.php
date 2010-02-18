@@ -1,5 +1,5 @@
 <?php
-#error_reporting(0);	// Keine Fehler ausgeben!
+error_reporting(0);	// Keine Fehler ausgeben!
 
 require_once( '../config.php' );
 
