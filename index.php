@@ -2,10 +2,6 @@
 error_reporting(0);	// Keine Fehler ausgeben!
 
 
-if( isset($_GET['shpa']) )
-	header('location:http://www.schulhomepage.de/topliste/index.php?vote=2623&c=');
-
-
 //	UNCOMMENT THE FOLLOWING LINE IF SHOULD REDIRECT TO UNDER-CONSTRUCTION-PAGE
 #	$underconstruction = true;
 
