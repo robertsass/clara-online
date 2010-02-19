@@ -103,7 +103,7 @@ class Root extends rsCore {
 	
 	
 	protected function event_banner( rsContainer $Banner ) {
-		if( date('md') >= 1224 && date('md') <= 1226 )	// An Weihnachten (von Heilig Abend bis einschlie§lich dem zweiten Feiertag)
+		if( date('md') >= 1224 && date('md') <= 1226 )	// An Weihnachten (von Heilig Abend bis einschlieï¿½lich dem zweiten Feiertag)
 			$banner_image = "top_background_weihnachten.jpg";
 		
 		elseif( date('md') >= 1231 || date('nj') == 11 )	// An Silvester und Neujahr
